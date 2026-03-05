@@ -1,0 +1,6 @@
+.menu a.active{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: var(--color-primary);
+    font-weight: 600;
+}

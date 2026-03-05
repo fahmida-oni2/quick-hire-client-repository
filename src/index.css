@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Define Fonts */
+  --font-clash: "Clash Display", sans-serif;
+  --font-redhat: "Red Hat Display", sans-serif;
+  --font-epilogue: "Epilogue", sans-serif;
+
+  /* Define Colors using the hex or rgb values directly */
+  --color-primary: rgb(70, 64, 222);
+  --color-accent: rgb(38, 164, 255);
+  --color-neutral: rgb(81, 91, 111);
+  --color-dark: rgb(37, 50, 75);
+}
+
