@@ -150,7 +150,7 @@ git clone https://github.com/fahmida-oni2/quick-hire-client-repository.git
 cd quick-hire-client-repository
 
 # Backend (in a separate terminal)
-git clone https://github.com/your-username/quickhire-server.git
+git clone https://github.com/fahmida-oni2/quick-hire-server-repository.git
 cd quickhire-server
 ```
 
