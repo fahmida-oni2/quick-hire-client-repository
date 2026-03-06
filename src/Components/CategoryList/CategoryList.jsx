@@ -54,7 +54,7 @@ const CategoryList = () => {
         </h2>
         <button
           onClick={() => navigate("/jobs")}
-          className="flex items-center gap-2 text-sm text-[#4640DE] font-semibold hover:underline cursor-pointer"
+          className="hidden sm:flex items-center gap-2 text-sm text-[#4640DE] font-semibold hover:underline cursor-pointer"
         >
           Show all jobs <FiArrowRight size={14} />
         </button>
@@ -102,6 +102,12 @@ const CategoryList = () => {
           );
         })}
       </div>
+       <button
+          onClick={() => navigate("/jobs")}
+          className="lg:hidden md:hidden mt-5 flex items-center gap-2 text-sm text-[#4640DE] font-semibold hover:underline cursor-pointer"
+        >
+          Show all jobs <FiArrowRight size={14} />
+        </button>
     </section>
   );
 };
