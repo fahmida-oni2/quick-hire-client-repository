@@ -36,19 +36,19 @@ const Footer = () => {
         <div className="flex flex-col gap-1">
           <h4 className="text-white font-semibold  font-epilogue text-base mb-3">About</h4>
           <Link to="/companies" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Companies</Link>
-          <Link to="/pricing" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Pricing</Link>
-          <Link to="/terms" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Terms</Link>
-          <Link to="/advice" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Advice</Link>
-          <Link to="/privacy" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Privacy Policy</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Pricing</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Terms</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Advice</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Privacy Policy</Link>
         </div>
 
         {/* Resources */}
         <div className="flex flex-col  font-epilogue gap-1">
           <h4 className="text-white font-semibold text-base mb-3">Resources</h4>
-          <Link to="/help" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Help Docs</Link>
-          <Link to="/guide" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Guide</Link>
-          <Link to="/updates" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Updates</Link>
-          <Link to="/contact" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Contact Us</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Help Docs</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Guide</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Updates</Link>
+          <Link to="/" className="text-[#9199a8] hover:text-white text-sm py-1 transition-colors duration-200 no-underline">Contact Us</Link>
         </div>
 
         {/* Newsletter */}
