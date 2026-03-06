@@ -43,7 +43,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="mt-10 ml-10 mr-10 lg:ml-20 lg:mr-20">
+    <nav className="bg-white px-5 sm:px-10 lg:px-20 py-4 fixed top-0 left-0 right-0 z-50 shadow-sm font-epilogue">
       <div className="flex justify-between">
         {/* Logo */}
         <div className="flex items-center">
@@ -59,7 +59,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Desktop Auth */}
+        {/* Desktop login */}
         <div className="hidden md:flex items-center font-epilogue gap-5">
           {user ? (
             <div className="relative">

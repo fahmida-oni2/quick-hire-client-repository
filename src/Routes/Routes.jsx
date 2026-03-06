@@ -13,6 +13,11 @@ import DashBoardLayouts from "../Layouts/DashBoardLayouts";
 import MyProfile from "../Pages/Dashboard/MyProfile/MyProfile";
 import OverView from "../Pages/Dashboard/OverView/OverView";
 import Login from "../Components/Login/Login";
+import CreateJob from "../Pages/Dashboard/CreateJob/CreateJob";
+import JobListing from "../Pages/Dashboard/JobListing/JobListing";
+import ApplicantsList from "../Pages/Dashboard/ApplicantsList/ApplicantsList";
+import Settings from "../Pages/Dashboard/StaticPages/Settings";
+import Help from "../Pages/Dashboard/StaticPages/Help";
 
 
 export const router = createBrowserRouter([
@@ -67,6 +72,10 @@ export const router = createBrowserRouter([
     hydrateFallbackElement: <Loading></Loading>,
 
     children: [
+       {
+        index: true,
+        element:<OverView></OverView>,
+      },
       {
         path: "profile",
         element: <MyProfile></MyProfile>,
@@ -74,6 +83,26 @@ export const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <OverView></OverView>,
+      },
+       {
+        path: "post-job",
+        element: <CreateJob></CreateJob>,
+      },
+        {
+        path: "job-listing",
+        element: <JobListing></JobListing>,
+      },
+          {
+        path: "applicants",
+        element: <ApplicantsList></ApplicantsList>,
+      },
+          {
+        path: "settings",
+        element: <Settings></Settings>,
+      },
+          {
+        path: "help",
+        element:<Help></Help>,
       },
     ],
   },
