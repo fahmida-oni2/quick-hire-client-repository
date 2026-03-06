@@ -8,8 +8,8 @@ A full-stack job board application built with **React.js** (frontend) and **Node
 |---|---|
 | **Frontend** | https://quickhire-rho.vercel.app |
 | **Backend** | https://quickhire-server-sigma.vercel.app |
-| **Client Repository** | https://github.com/fahmida-oni2/quick-hire-client-repository |
-| **Demo Video** | *(Loom link here)* |
+| **Server Repository** | https://github.com/fahmida-oni2/quick-hire-server-repository.git |
+
 
 ---
 
